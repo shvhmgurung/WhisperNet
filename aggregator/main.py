@@ -2,7 +2,10 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import httpx
 
-WORKER_URLS = ["http://127.0.0.1:5000/analyse",]
+WORKER_URLS = [
+    "http://127.0.0.1:5000/analyse",
+    "http://127.0.0.1:5001/analyse",
+]
 
 app = FastAPI()
 
@@ -11,7 +14,7 @@ app = FastAPI()
 async def handle_task(request: Request):
     
     # Parse the incoming JSON as a dict
-    task = await request.json
+    task = await request.json()
 
     result = []
 
