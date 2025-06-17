@@ -131,7 +131,3 @@ Reviews are aggregated like this:
 - [GitLab Repo with Auto-Updated Review](https://gitlab.com/lx0xvn-group/whispernet-demo/-/blob/main/ai_review.md)
 
 ---
-
-## License
-
-This project is open-source under the MIT License.
