@@ -1,4 +1,9 @@
 fastapi
-uvicorn[standard]
-google-cloud-aiplatform
+uvicorn
+google-cloud-aiplatform>=1.44.0
+google-auth
 python-dotenv
+requests
+pydantic
+PyYAML
+google-auth
